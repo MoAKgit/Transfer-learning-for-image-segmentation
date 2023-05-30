@@ -28,6 +28,14 @@ All images and masks are sesized to 128*128.
 
 ## Objective Function:
 In the funetuning processs, Dice loss is used fo all models.
+## A Comparision study on Pedesterian dataset:
+The table bellow, compares the performence of different segmentation with respect to IoU (intersection over union) scores on test data.
+We used resnet34 for all structures. 
+
+
+
+
+
 
 ## A Comparision study on different backbones:
 ## A Comparision study on Model structures:
