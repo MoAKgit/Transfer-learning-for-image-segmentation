@@ -11,6 +11,7 @@
 1. resnet34 trained on ImageNet
 2. resnet50 trained on ImageNet
 3. resnet101 trained on ImageNet
+4. Segformer
 
 ## List of the datasets are used for Finetuning:
 Pedesterian Image Dataset
