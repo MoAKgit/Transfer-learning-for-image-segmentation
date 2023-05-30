@@ -27,8 +27,8 @@ To augment the datset, For Peresterian images horizental roration is applied. Fo
 The maximun epoch is set to 100.
 All images and masks are sesized to 128*128.
 
-## Objective Function:
-In the funetuning processs, Dice loss is used fo all models.
+## Objective Function and comparison metric:
+In the funetuning processs, Dice loss is used fo all models. We applied IoU as the comparison metric.
 ## A Comparision study on Pedesterian dataset:
 The table compares the performence of different segmentation models with respect to IoU (intersection over union) scores on test data.
 We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLabV3Plus. In Segformer, we finetuned the model with pretrained weights from ADE20k dataset.
