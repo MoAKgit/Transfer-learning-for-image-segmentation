@@ -1,5 +1,15 @@
 # Transfer-learning-for-image-segmentation
 
+# List of models for the segmentation in this study:
+1. Unet
+2. FPN
+3. PSNet
+4. Segformer
+5. Mask R-CNN
+# List of backbone models:
+1. resnet34 trained on ImageNet
+2. resnet50 trained on ImageNet
+
 
 ## Data aqusition:
 Pedesterian Image Dataset
