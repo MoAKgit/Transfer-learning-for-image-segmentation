@@ -24,4 +24,7 @@ All images and masks are sesized to 128*128.
 ## Objective Function:
 In the funetuning processs, Dice loss is used fo all models.
 
-## A Comparision study
+## A Comparision study on different backbones:
+## A Comparision study on Model structures:
+## A Comparision study on different datasets:
+
