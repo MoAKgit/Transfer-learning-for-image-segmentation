@@ -6,7 +6,7 @@
 3. PSNet
 4. Segformer
 5. Mask R-CNN
-# List of backbone models:
+## List of backbone models:
 1. resnet34 trained on ImageNet
 2. resnet50 trained on ImageNet
 
