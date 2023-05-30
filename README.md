@@ -18,7 +18,11 @@ Gland Segmentation Dataset
 
 ## Data spliting:
 
-Datasets are splited to train test and validation. Vlaidation dataset is used for early stoppin of the traning process with patience set to 10.
+Datasets are splited to train test and validation. Validation dataset is used for early stopping of the training process with patience equals 10.
+
+All datasets are normalized with mean = [0.485, 0.456, 0.406]  and standard deviation = [0.229, 0.224, 0.225] , with respect to the imagenet dataset. 
+To augment the datset, For Peresterian images horizental roration is applied. For the medical dataset, both horizental and vertical rotation is used.
+
 The maximun epoch is set to 100.
 All images and masks are sesized to 128*128.
 
