@@ -7,16 +7,16 @@
 4. Segformer
 5. Linknet
 6. DeepLabV3Plus
-## List of backbone models:
+## List of the backbone models:
 1. resnet34 trained on ImageNet
 2. resnet50 trained on ImageNet
 3. resnet101 trained on ImageNet
 
-## List of datasets are used for Finetuning:
+## List of the datasets are used for Finetuning:
 Pedesterian Image Dataset
 Gland Segmentation Dataset
 
-## Data spliting:
+## Data spliting, normalization and augmentation:
 
 Datasets are splited to train test and validation. Validation dataset is used for early stopping of the training process with patience equals 10.
 
