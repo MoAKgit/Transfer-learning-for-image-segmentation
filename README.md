@@ -10,10 +10,8 @@
 1. resnet34 trained on ImageNet
 2. resnet50 trained on ImageNet
 
-
-## Data aqusition:
+# List of datasets are used for Finetuning:
 Pedesterian Image Dataset
-
 
 ## Data spliting:
 
