@@ -14,18 +14,14 @@
 
 ## List of datasets are used for Finetuning:
 Pedesterian Image Dataset
+Gland Segmentation Dataset
 
 ## Data spliting:
 
 Datasets are splited to train test and validation. Vlaidation dataset is used for early stoppin of the traning process with patience set to 10.
 The maximun epoch is set to 100.
 All images and masks are sesized to 128*128.
-Please follow the same directory for your dataset as follows:
-data folder
- |
-  -- images with jpg format
-  |
-  -- masks with pnj format
+
 ## Objective Function:
 In the funetuning processs, Dice loss is used fo all models.
 
