@@ -33,6 +33,14 @@ In the funetuning processs, Dice loss is used fo all models. We applied IoU as t
 The table compares the performence of different segmentation models with respect to IoU (intersection over union) scores on test data.
 We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLabV3Plus. In Segformer, we finetuned the model with pretrained weights from ADE20k dataset.
 
+| Models   | backbone | Costum Dataset | IoU |
+| ------------- | ------------- |
+| Unet  | Content Cell  |
+| FPN  | Content Cell  |
+| PSNet  | Content Cell  |
+| Linknet  | Content Cell  |
+| Segformer  | Content Cell  |
+| DeepLabV3Plus  | Content Cell  |
 
 ## A Comparision study on different backbones:
 ## A Comparision study on Model structures:
