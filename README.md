@@ -1,11 +1,11 @@
-## Transfer-learning-for-image-segmentation
+# Transfer-learning-for-image-segmentation
 
 
-# Data aqusition:
+## Data aqusition:
 Pedesterian Image Dataset
 
 
-# Data spliting:
+## Data spliting:
 
 Datasets are splited to train test and validation. Vlaidation dataset is used for early stoppin of the traning process with patience set to 10.
 The maximun epoch is set to 100.
