@@ -30,12 +30,8 @@ All images and masks are sesized to 128*128.
 ## Objective Function:
 In the funetuning processs, Dice loss is used fo all models.
 ## A Comparision study on Pedesterian dataset:
-The table bellow, compares the performence of different segmentation with respect to IoU (intersection over union) scores on test data.
-We used resnet34 for all structures. 
-
-
-
-
+The table compares the performence of different segmentation models with respect to IoU (intersection over union) scores on test data.
+We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLabV3Plus. In Segformer, we applied finetuned the model with a pretrained weights from ADE20k dataset.
 
 
 ## A Comparision study on different backbones:
