@@ -5,7 +5,8 @@
 2. FPN
 3. PSNet
 4. Segformer
-5. Mask R-CNN
+5. Linknet
+6. Mask R-CNN
 ## List of backbone models:
 1. resnet34 trained on ImageNet
 2. resnet50 trained on ImageNet
