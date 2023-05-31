@@ -20,7 +20,10 @@ I utilized the Pedestrian and Gland segmentation datasets and provided the corre
 
 Pedestrian: https://drive.google.com/file/d/12Wn7ZkrYYFphrYCJniI0FRWBMaoutQdw/view?usp=sharing
 
-Gland: https://drive.google.com/file/d/1SRNW28GolYUYOUrdDNnMJj0F7EJKDu8v/view?usp=sharing
+Gland (128 * 128): https://drive.google.com/file/d/1SRNW28GolYUYOUrdDNnMJj0F7EJKDu8v/view?usp=sharing
+
+Gland (512 * 512): https://drive.google.com/file/d/1hBywB14KQ_B4kboovO_FYVd-RosWruky/view?usp=sharing
+
 
 However, it is unnecessary to download them as the provided codes will automatically load the data from the specified addresses. The dataset roots consist of train, valid, and test folders, each containing images stored in .jpg format and masks in .png format
 
