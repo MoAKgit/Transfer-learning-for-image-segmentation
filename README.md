@@ -36,7 +36,8 @@ We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLab
 Between CNN based structures, Linknet and  DeepLabV3Plus outperform with almost same number of traning parameters. However, results indicate that Segformer is significantly outperforms other structures in terms of IoU score and also has less number of trainable parameters.
 
 ## A Comparision study on Gland Segmetnation dataset:
-For this dataset, the images and masks are resized to 256*256.
+For this dataset, the images and masks are resized to 256*256. Flippin is applied for data augmentation and images are normalized with mean = [0.485, 0.456, 0.406] and std = [0.229, 0.224, 0.225].
+
 
 
 
