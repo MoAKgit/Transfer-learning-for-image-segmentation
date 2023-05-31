@@ -73,5 +73,5 @@ DeepLabV3Plus :
 
 Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8gBecTxj?usp=sharing
 
-
+<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_Gland.PNG" width=80% height=80%>
 
