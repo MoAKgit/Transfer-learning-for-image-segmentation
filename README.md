@@ -80,7 +80,7 @@ Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8g
 
 
 ## Considering Segformer performance in different image sizes:
-Here, I provide IoU performce of Linknet in full image size (512, 512) with random cropping (128*128) for further data augmentation. 
+Here, I provide IoU performce of Linknet in full image size (512, 512). 
 I achived 0.828 in IoU score. 
 
 Link of the code: https://colab.research.google.com/drive/1oZOntr0OIdoX_2BxmwiwGGW_8mrFjE_O?usp=sharing
