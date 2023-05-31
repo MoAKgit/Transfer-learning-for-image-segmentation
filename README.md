@@ -37,9 +37,13 @@ Between CNN based structures, Linknet and  DeepLabV3Plus outperform with almost 
 
 Codes are provided by the following links:
 Linknet :  https://colab.research.google.com/drive/1OsvJJZ5bJYhcl1Ohn7TPgS-xYopy12Hf?usp=sharing
+
 PSNets :   https://colab.research.google.com/drive/1NWG5zMVO7nphXC0EnKKwZRFLLdEjK17X?usp=sharing
+
 FPN :      https://colab.research.google.com/drive/1pbzTIC5fngbOgnItDFevNM4FYafLD0KK?usp=sharing
+
 DeepLabV3Plus : https://colab.research.google.com/drive/1TXj5M2RpIvh9hceIOkIB8FOP38fyaYuL?usp=sharing
+
 Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjrH9aPIb?usp=sharing
 
 
