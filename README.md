@@ -71,7 +71,7 @@ FPN :      https://colab.research.google.com/drive/1zOAozV96oQ-EzZWmthXveOIouPYg
 
 DeepLabV3Plus : 
 
-Segformer :  
+Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8gBecTxj?usp=sharing
 
 
 
