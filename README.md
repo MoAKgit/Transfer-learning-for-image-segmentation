@@ -16,34 +16,34 @@ Pedesterian Image Dataset
 Gland Segmentation Dataset
 
 ## Datasets:
-I used Pedestrian and Gland segmentation datasets. I provided the datasets in the following links:
+I utilized the Pedestrian and Gland segmentation datasets and provided the corresponding links below:
 
 Pedestrian: https://drive.google.com/file/d/12Wn7ZkrYYFphrYCJniI0FRWBMaoutQdw/view?usp=sharing
 
 Gland: https://drive.google.com/file/d/1SRNW28GolYUYOUrdDNnMJj0F7EJKDu8v/view?usp=sharing
 
-However, you dont need to download them. The provided codes will load the data from the addresses.
-The dataset roots contain train, valid and test folders each and inside them images and masks are stored with .jpg and .png formats respectively. 
+However, it is unnecessary to download them as the provided codes will automatically load the data from the specified addresses. The dataset roots consist of train, valid, and test folders, each containing images stored in .jpg format and masks in .png format
 
 ## Data spliting, normalization and augmentation:
+The datasets are split into training, testing, and validation sets. The validation dataset is used for early stopping during the training process, with a patience of 10.
 
-Datasets are splited to train test and validation. Validation dataset is used for early stopping of the training process with patience equals 10.
+For the Pedestrian images, horizontal flipping was applied as an augmentation technique. For the medical dataset, both horizontal and vertical rotation were employed.
 
-We applied Albumentations as a computer vision tool for normlaization and augmentation. All datasets are normalized with mean = [0.485, 0.456, 0.406]  and standard deviation = [0.229, 0.224, 0.225] , with respect to the imagenet dataset. 
-To augment the datset, For Peresterian images horizental roration is applied. For the medical dataset, both horizental and vertical rotation is used.
+We utilized Albumentations as a computer vision tool for normalization and augmentation. All datasets were normalized with a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225], based on the ImageNet dataset.
 
-The maximun epoch is set to 100.
-To accelerate the funetuning process, I resized all images and masks to 128*128. It is worthy to mention that larger image size will probably provides better performence. 
+The maximum epoch was set to 100. In order to expedite the fine-tuning process, all images and masks were resized to 128x128 pixels. It is worth mentioning that larger image sizes may potentially lead to improved performance.
+
 
 ## Objective Function and comparison metric:
 In the funetuning processs, Dice loss is used fo all models. We applied IoU as the comparison metric.
 ## A Comparision study on Pedesterian Segmentation:
-The table compares the performence of different segmentation models with respect to IoU (intersection over union) scores on test data.
-We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLabV3Plus. In Segformer, we finetuned the model with pretrained weights from ADE20k dataset.
+The table presents a comparison of the performance of various segmentation models based on IoU (Intersection over Union) scores on the test data.
 
-Between CNN based structures, Linknet and  DeepLabV3Plus outperform with almost same number of traning parameters. However, results indicate that Segformer is significantly outperforms other structures in terms of IoU score and significantly contain less number of trainable parameters.
+For the models Unet, FPN, PSNet, Linknet, and DeepLabV3Plus, we utilized ResNet34 as the backbone model. In the case of Segformer, we performed fine-tuning using pretrained weights from the ADE20k dataset.
 
-Codes are provided by the following links:
+Among the CNN-based architectures, both Linknet and DeepLabV3Plus demonstrate superior performance with similar numbers of trainable parameters. However, the results indicate that Segformer significantly outperforms other models in terms of IoU score while also possessing a considerably lower number of trainable parameters.
+
+You can find the codes through the following links:
 
 Linknet :  https://colab.research.google.com/drive/1OsvJJZ5bJYhcl1Ohn7TPgS-xYopy12Hf?usp=sharing
 
@@ -59,9 +59,10 @@ Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjr
 
 
 ## A Comparision study on Gland Segmetnation:
-For this dataset, the images and masks are resized to 256*256. Flippin is applied for data augmentation and images are normalized with mean = [0.485, 0.456, 0.406] and std = [0.229, 0.224, 0.225].
+For this dataset, both the images and masks have been resized to a dimension of 256x256 pixels. Data augmentation is performed through flipping, and the images are normalized using a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225].
 
-Codes are provided by the following links:
+You can access the codes through the following links:
+
 
 Linknet :  https://colab.research.google.com/drive/1rmLYOuJdednnpwzNMazipPUmSsicDGJl?usp=sharing
 
