@@ -36,7 +36,7 @@ All images and masks are sesized to 128*128.
 
 ## Objective Function and comparison metric:
 In the funetuning processs, Dice loss is used fo all models. We applied IoU as the comparison metric.
-## A Comparision study on Pedesterian dataset:
+## A Comparision study on Pedesterian Segmentation:
 The table compares the performence of different segmentation models with respect to IoU (intersection over union) scores on test data.
 We used resnet34 as a backbone model for  Unet, FPN, PSNet, Linknet, and DeepLabV3Plus. In Segformer, we finetuned the model with pretrained weights from ADE20k dataset.
 
@@ -56,7 +56,7 @@ Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjr
 
 
 
-## A Comparision study on Gland Segmetnation dataset:
+## A Comparision study on Gland Segmetnation:
 For this dataset, the images and masks are resized to 256*256. Flippin is applied for data augmentation and images are normalized with mean = [0.485, 0.456, 0.406] and std = [0.229, 0.224, 0.225].
 
 
