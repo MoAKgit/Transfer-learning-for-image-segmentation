@@ -33,7 +33,7 @@ We applied Albumentations as a computer vision tool for normlaization and augmen
 To augment the datset, For Peresterian images horizental roration is applied. For the medical dataset, both horizental and vertical rotation is used.
 
 The maximun epoch is set to 100.
-All images and masks are sesized to 128*128.
+To accelerate the funetuning process, I resized all images and masks to 128*128. It is worthy to mention that larger image size will probably provides better performence. 
 
 ## Objective Function and comparison metric:
 In the funetuning processs, Dice loss is used fo all models. We applied IoU as the comparison metric.
