@@ -27,7 +27,7 @@ Gland (512 * 512): https://drive.google.com/file/d/1hBywB14KQ_B4kboovO_FYVd-RosW
 
 However, it is unnecessary to download them as the provided codes will automatically load the data from the specified addresses. The dataset roots consist of train, valid, and test folders, each containing images stored in .jpg format and masks in .png format
 
-## Data spliting, normalization and augmentation:
+## Data Splitting, Normalization and Augmentation:
 The datasets are split into training, testing, and validation sets. The validation dataset is used for early stopping during the training process, with a patience of 10.
 
 For the Pedestrian images, horizontal flipping was applied as an augmentation technique. For the medical dataset, both horizontal and vertical rotation were employed.
