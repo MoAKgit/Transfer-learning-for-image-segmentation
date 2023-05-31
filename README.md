@@ -19,6 +19,7 @@ Gland Segmentation Dataset
 
 ## Datasets:
 I used Pedestrian and Gland segmentation datasets. I provided the datasets in the following links:
+
 Pedestrian: https://drive.google.com/file/d/12Wn7ZkrYYFphrYCJniI0FRWBMaoutQdw/view?usp=sharing
 
 Gland: https://drive.google.com/file/d/1SRNW28GolYUYOUrdDNnMJj0F7EJKDu8v/view?usp=sharing
