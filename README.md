@@ -56,7 +56,7 @@ DeepLabV3Plus : https://colab.research.google.com/drive/1TXj5M2RpIvh9hceIOkIB8FO
 Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjrH9aPIb?usp=sharing
 
 
-![My Image](flowchart.PNG)
+![My Image](results on pedestrian.PNG)
 
 
 ## A Comparision study on Gland Segmetnation:
