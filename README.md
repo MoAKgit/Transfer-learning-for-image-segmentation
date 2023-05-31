@@ -55,7 +55,7 @@ DeepLabV3Plus : https://colab.research.google.com/drive/1TXj5M2RpIvh9hceIOkIB8FO
 
 Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjrH9aPIb?usp=sharing
 
-src="[https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/plate_1.jpg](https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/[results%20on%20pedestrian](https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_pedestrian.PNG).PNG)"> 
+<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_pedestrian.PNG" width=20% height=20%>
 
 
 ## A Comparision study on Gland Segmetnation:
