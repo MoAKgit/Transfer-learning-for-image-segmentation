@@ -69,7 +69,7 @@ PSNets :
 
 FPN :      https://colab.research.google.com/drive/1zOAozV96oQ-EzZWmthXveOIouPYgk3af?usp=sharing
 
-DeepLabV3Plus : 
+DeepLabV3Plus :  https://colab.research.google.com/drive/1oi5sLB02u0Zy_FCYLk9YyPVcq7TFfU2Z?usp=sharing
 
 Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8gBecTxj?usp=sharing
 
