@@ -66,7 +66,7 @@ Linknet :  https://colab.research.google.com/drive/1rmLYOuJdednnpwzNMazipPUmSsic
 
 PSNets :   
 
-FPN :      
+FPN :      https://colab.research.google.com/drive/1zOAozV96oQ-EzZWmthXveOIouPYgk3af?usp=sharing
 
 DeepLabV3Plus : 
 
