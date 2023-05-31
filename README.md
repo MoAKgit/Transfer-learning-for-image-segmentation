@@ -58,7 +58,7 @@ DeepLabV3Plus : https://colab.research.google.com/drive/1TXj5M2RpIvh9hceIOkIB8FO
 
 Segformer :  https://colab.research.google.com/drive/1vqCu2U6e4IadQwBeI2_CkMSrjrH9aPIb?usp=sharing
 
-
+<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_pedestrian.PNG" width=80% height=80%>
 
 ## A Comparision study on Gland Segmetnation:
 For this dataset, both the images and masks have been resized to a dimension of 256x256 pixels. Data augmentation is performed through flipping, and the images are normalized using a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225].
