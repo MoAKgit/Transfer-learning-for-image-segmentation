@@ -76,3 +76,18 @@ Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8g
 
 <img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_Gland.PNG" width=80% height=80%>
 
+
+## Considering Segformer performance in different image sizes:
+Here, I provide IoU performce of Linknet in full image size (512, 512) with random cropping (128*128) for further data augmentation. 
+I achived 0.828 in IoU score. 
+
+Link of the code: https://colab.research.google.com/drive/1oZOntr0OIdoX_2BxmwiwGGW_8mrFjE_O?usp=sharing
+
+And this is one result from test data:
+
+<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/linket_512.png" width=100% height=100%>
+
+
+
+
+
