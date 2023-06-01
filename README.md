@@ -80,7 +80,7 @@ Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8g
 
 
 ## Considering Linknet performance with cropping + flipping augmentations:
-Here, I provide IoU performce of Linknet in full image size (512, 512). In the training phase, I applied random cropping with the size of (256, 256) and random horizental flipping. I achived 0.844 for IoU score. 
+Here, I provide IoU performce of Linknet in full image size (512, 512). In the training phase, I applied random cropping with the size of (256, 256) and random horizental flipping. The average IoU score in test dataset is 0.844. 
 
 Link of the code: https://colab.research.google.com/drive/1oZOntr0OIdoX_2BxmwiwGGW_8mrFjE_O?usp=sharing
 
