@@ -40,7 +40,7 @@ The maximum epoch was set to 100. In order to expedite the fine-tuning process, 
 ## Objective Function and Evaluation metric:
 In the funetuning processs, Dice loss is used fo all models. We applied IoU as the comparison metric.
 ## A Comparision study on Pedesterian Segmentation:
-The table presents a comparison of the performance of various segmentation models based on IoU (Intersection over Union) scores on the test data.
+The table presents a performance comparison of  various segmentation models based on IoU (Intersection over Union) scores on the test data.
 
 For the models Unet, FPN, PSNet, Linknet, and DeepLabV3Plus, we utilized ResNet34 as the backbone model. In the case of Segformer, we performed fine-tuning using pretrained weights from the ADE20k dataset.
 
