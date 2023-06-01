@@ -79,7 +79,7 @@ Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8g
 <img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_Gland.PNG" width=80% height=80%>
 
 
-## Considering Linknet and DeepLabv3 performances with cropping + flipping augmentations:
+## Comparing Linknet and DeepLabv3 performances with cropping + flipping augmentations:
 Here, I provide IoU performce of Linknet in Gland segmentation dataset with the image size of (512,512). In the training phase, I applied random cropping with the size of (256, 256) and random horizental flipping. The average IoU score in test dataset is 0.844. I got 0.844 IoU score with DeepLabv3 as well. The link of the Colab implmentation is provided as bellow:
 
 Linknet: https://colab.research.google.com/drive/1oZOntr0OIdoX_2BxmwiwGGW_8mrFjE_O?usp=sharing
