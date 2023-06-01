@@ -79,13 +79,12 @@ Segformer :  https://colab.research.google.com/drive/19xwhjSY5y3JsLaXv5zc6McWZ8g
 <img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/results_Gland.PNG" width=80% height=80%>
 
 
-## Considering Segformer performance in different image sizes:
-Here, I provide IoU performce of Linknet in full image size (512, 512). 
-I achived 0.828 in IoU score. 
+## Considering Segformer performance in with cropping + flipping augmentations:
+Here, I provide IoU performce of Linknet in full image size (512, 512). In the training phase, I applied random cropping with the size of (256, 256) and random horizental flipping. I achived 0.844 for IoU score. 
 
 Link of the code: https://colab.research.google.com/drive/1oZOntr0OIdoX_2BxmwiwGGW_8mrFjE_O?usp=sharing
 
-And this is one result from test data:
+And this is a result example of the test data:
 
 <img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/linket_512.png" width=100% height=100%>
 
