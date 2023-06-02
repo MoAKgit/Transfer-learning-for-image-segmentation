@@ -88,7 +88,7 @@ DeepLabv3: https://colab.research.google.com/drive/1xG_g2BPDB2Bwqyz9lQQ2wJZXE5p3
 
 And this is a sample of test outputs using Linknet:
 
-<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/gland_linket_512.png" width=100% height=100%>
+<img src="https://github.com/MoAKgit/Transfer-learning-for-image-segmentation/blob/main/gland_linknet_512.png" width=100% height=100%>
 
 
 
